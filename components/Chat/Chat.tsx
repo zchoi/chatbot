@@ -209,7 +209,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'Chatbot-CR with 超燃AI'
+                        'Chatbot with 恰恰AI'
                       )}
                     </div>
 
