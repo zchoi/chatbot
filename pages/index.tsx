@@ -580,7 +580,7 @@ const Home: React.FC<HomeProps> = ({
 
     const showPromptbar = localStorage.getItem('showPromptbar');
     if (showPromptbar) {
-      setShowPromptbar(showPromptbar === 'false');
+      setShowPromptbar(showPromptbar === 'true');
     }
 
     const folders = localStorage.getItem('folders');
@@ -626,7 +626,7 @@ const Home: React.FC<HomeProps> = ({
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>Chatbot with 超燃AI</title>
         <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"
@@ -764,7 +764,7 @@ export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
         'chat',
         'sidebar',
         'markdown',
-        'promptbar',
+        // 'promptbar',
       ])),
     },
   };
