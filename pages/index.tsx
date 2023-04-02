@@ -580,7 +580,7 @@ const Home: React.FC<HomeProps> = ({
 
     const showPromptbar = localStorage.getItem('showPromptbar');
     if (showPromptbar) {
-      setShowPromptbar(showPromptbar === 'true');
+      setShowPromptbar(showPromptbar === 'false');
     }
 
     const folders = localStorage.getItem('folders');
