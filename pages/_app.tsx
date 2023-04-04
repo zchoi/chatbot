@@ -13,6 +13,7 @@ function App({ Component, pageProps }: AppProps<{}>) {
     <div className={inter.className}>
       <Toaster />
       <Component {...pageProps} />
+      <Analytics />
     </div>
   );
 }
@@ -20,14 +21,3 @@ function App({ Component, pageProps }: AppProps<{}>) {
 export default appWithTranslation(App);
 
 
- 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-}
- 
-export default MyApp;
