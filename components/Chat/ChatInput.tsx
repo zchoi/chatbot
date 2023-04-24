@@ -324,6 +324,12 @@ export const ChatInput: FC<Props> = ({
         {t(
           "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
         )}
+        <a
+                href="http://qiaqiaai.top/"
+                className="text-blue-500 hover:underline"
+              >
+                qiaqiaai.top
+        </a>
       </div>
     </div>
   );
