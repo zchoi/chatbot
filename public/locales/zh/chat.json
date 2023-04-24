@@ -24,6 +24,6 @@
   "click if using a .env.local file": "click if using a .env.local file",
   "Message limit is {{maxLength}} characters. You have entered {{valueLength}} characters.": "消息字数限制为 {{maxLength}} 个字符。您已输入 {{valueLength}} 个字符。",
   "Please enter a message": "请输入一条消息",
-  "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.": "为恰恰AI的用户提供限时免费的ChatGPT体验",
+  "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.": "使用恰恰AI的用户们,感谢你们一直以来的支持, 恰恰AI自开放免费使用服务以来，共累计3000+用户和6k+的访问量。但由于成本原因, 我们的免费版将于半个月后停止运营(5月9日)。朋友们可以移步我们的全新网站(qiaqiaai.top)继续享受服务，新网站提供了全新的UI界面，支持文生图，GPT-4等多种新功能。试运行期间限时优惠，抓住机遇，立即体验！",
   "Are you sure you want to clear all messages?": "你确定要清除所有的消息吗？"
 }
