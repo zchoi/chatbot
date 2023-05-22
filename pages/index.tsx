@@ -648,7 +648,7 @@ const Home: React.FC<HomeProps> = ({
           <div className="flex h-full w-full pt-[48px] sm:pt-0">
             {showSidebar ? (
               <div>
-                <Chatbar
+<!--                 <Chatbar
                   loading={messageIsStreaming}
                   conversations={conversations}
                   lightMode={lightMode}
@@ -667,7 +667,7 @@ const Home: React.FC<HomeProps> = ({
                   onClearConversations={handleClearConversations}
                   onExportConversations={handleExportData}
                   onImportConversations={handleImportConversations}
-                />
+                /> -->
 
                 <button
                   className="fixed top-5 left-[270px] z-50 h-7 w-7 hover:text-gray-400 dark:text-white dark:hover:text-gray-300 sm:top-0.5 sm:left-[270px] sm:h-8 sm:w-8 sm:text-neutral-700"
