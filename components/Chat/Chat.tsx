@@ -168,7 +168,7 @@ export const Chat: FC<Props> = memo(
                   "全新升级版本网址：",
                 )}
                 <a
-                  href="qiaqiaai.top"
+                  href="http://qiaqiaai.top/#/home/chat"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
