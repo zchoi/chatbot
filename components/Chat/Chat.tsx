@@ -159,7 +159,7 @@ export const Chat: FC<Props> = memo(
             <div className="text-center text-lg text-black dark:text-white">
               <div className="mb-8">{`QIAQIA AI为用户提供智能的对话交互服务.`}</div>
               <div className="mb-2 font-bold">
-                Important: 使用恰恰AI的用户们,感谢你们一直以来的支持, 恰恰AI自开放免费使用服务以来，共累计4k+用户和7k+的访问量。基于此服务，我们提供了全新的版本，新网站包含全新的UI界面，支持图像创作生成，GPT-4大模型等多种新功能。试运行期间限时优惠，抓住机遇，立即体验！新网址：qiaqiaai.top.
+                Important: 使用恰恰AI的用户们,感谢你们一直以来的支持, 恰恰AI自开放免费使用服务以来，共累计4k+用户和7k+的访问量。基于此服务，我们提供了全新的版本（本网站服务将于2023年5月22日起停止），新网站包含全新的UI界面，支持图像创作生成，GPT-4大模型等多种新功能。试运行期间限时优惠，抓住机遇，立即体验！
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
@@ -173,7 +173,7 @@ export const Chat: FC<Props> = memo(
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  openai.com
+                  qiaqiaai.top
                 </a>
               </div>
             </div>
