@@ -154,34 +154,32 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Chatbot QIAQIA
+              Welcome to QIAQIA AI
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">{`QIAQIA AI为用户提供智能的对话交互服务.`}</div>
               <div className="mb-2 font-bold">
-                Important: Chatbot QIAQIA is 100% unaffiliated with OpenAI.
+                Important: 使用恰恰AI的用户们,感谢你们一直以来的支持, 恰恰AI自开放免费使用服务以来，共累计4k+用户和7k+的访问量。基于此服务，我们提供了全新的版本，新网站包含全新的UI界面，支持图像创作生成，GPT-4大模型等多种新功能。试运行期间限时优惠，抓住机遇，立即体验！新网址：qiaqiaai.top.
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                Chatbot UI allows you to plug in your API key to use this UI
-                with their API.
+
               </div>
               <div className="mb-2">
-                It is <span className="italic">only</span> used to communicate
-                with their API.
+
               </div>
               <div className="mb-2">
                 {t(
-                  'Please set your OpenAI API key in the bottom left of the sidebar.',
+            
                 )}
               </div>
               <div>
                 {t(
-                  "If you don't have an OpenAI API key, you can get one here: ",
+                  "全新升级版本网址：",
                 )}
                 <a
-                  href="https://platform.openai.com/account/api-keys"
+                  href="qiaqiaai.top"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
