@@ -646,7 +646,7 @@ const Home: React.FC<HomeProps> = ({
           </div>
 
           <div className="flex h-full w-full pt-[48px] sm:pt-0">
-            {/*showSidebar ? (
+            {showSidebar ? (
               <div>
                 <Chatbar
                   loading={messageIsStreaming}
@@ -687,7 +687,7 @@ const Home: React.FC<HomeProps> = ({
               >
                 <IconArrowBarRight />
               </button>
-            )*/}
+            )}
 
             <div className="flex flex-1">
               <Chat
@@ -707,7 +707,7 @@ const Home: React.FC<HomeProps> = ({
               />
             </div>
 
-            {/* {showPromptbar ? (
+            { {showPromptbar ? (
               <div>
                 <Promptbar
                   prompts={prompts}
@@ -737,7 +737,7 @@ const Home: React.FC<HomeProps> = ({
               >
                 <IconArrowBarLeft />
               </button>
-            )} */}
+            )} }
           </div>
         </main>
       )}
