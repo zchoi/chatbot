@@ -707,7 +707,7 @@ const Home: React.FC<HomeProps> = ({
               />
             </div>
 
-            {showPromptbar ? (
+            {{showPromptbar ? (
               <div>
                 <Promptbar
                   prompts={prompts}
